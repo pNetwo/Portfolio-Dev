@@ -1,0 +1,107 @@
+.intro {
+  background-image: url(/assets/Background_Intro.png);
+  background-size: cover;
+  background-position: center;
+  width: 1366px;
+  height: 750px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  .avatar {
+    position: relative;
+
+    margin-top: 100px;
+    margin-bottom: 56px;
+
+    #profile {
+      width: 112px;
+      height: 112px;
+      border-radius: 50%;
+      padding: 5px;
+      border: 2px solid var(--red);
+
+      display: block;
+    }
+
+    #profile:hover {
+      filter: brightness(1.1);
+      transform: scale(1.2);
+      transition: 0.3s;
+    }
+
+    #code {
+      width: 31px;
+      height: 25px;
+      position: absolute;
+      bottom: 0;
+      right: 0;
+    }
+  }
+
+  .text {
+    margin-bottom: 80px;
+
+    h4 {
+      font: var(--subtitle);
+      color: var(--gray-500);
+
+      margin-bottom: 8px;
+
+      span {
+        color: var(--red);
+      }
+    }
+
+    h1 {
+      font: var(--title-lg);
+      color: var(--gray-600);
+
+      margin-bottom: 20px;
+    }
+
+    p {
+      font: var(--text-sm);
+      color: var(--gray-400);
+    }
+  }
+
+  .tags {
+    display: flex;
+    gap: 16px;
+
+    margin-bottom: 96px;
+
+    div {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+
+      background-color: var(--gray-300);
+      border-radius: 999px;
+      padding: 8px 16px;
+
+      transition: all 0.3s ease-in-out;
+    }
+
+    div:hover {
+      filter: brightness(1.1);
+    }
+
+    img {
+      width: 24px;
+      height: 24px;
+    }
+
+    span {
+      font: var(--text-md);
+      color: var(--gray-500);
+    }
+
+    div:hover span {
+      color: var(--gray-600);
+    }
+  }
+}

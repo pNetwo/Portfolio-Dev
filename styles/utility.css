@@ -1,0 +1,58 @@
+.grid {
+  display: grid;
+}
+
+.flex {
+  display: flex;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.grid-col {
+  grid-auto-flow: column;
+}
+
+.grid-cols-3 {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.gap-24 {
+  gap: 24px;
+}
+
+/* Textos */
+
+.title-md {
+  font: var(--title-md);
+  color: var(--gray-600);
+}
+
+.subtitle {
+  font: var(--subtitle);
+  color: var(--red);
+}
+
+.title-sm {
+  font: var(--title-sm);
+  color: var(--gray-600);
+}
+
+.text-md {
+  font: var(--text-md);
+  color: var(--gray-500);
+}
+
+.text-sm {
+  font: var(--text-md);
+  color: var(--gray-500);
+}
