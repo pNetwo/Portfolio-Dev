@@ -17,13 +17,16 @@
     margin-bottom: 56px;
 
     #profile {
-      width: 112px;
-      height: 112px;
+      width: 115px;
+      height: 115px;
       border-radius: 50%;
       padding: 5px;
       border: 2px solid var(--red);
 
       display: block;
+
+      object-fit: cover;
+      object-position: center;
     }
 
     #profile:hover {
