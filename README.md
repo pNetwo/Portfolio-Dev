@@ -21,13 +21,13 @@ Um projeto de estudo desenvolvido durante o meu aprendizado na Rocketseat, onde 
 1. Clone este repositório:
 
    ```bash
-   git clone [URL-DO-REPOSITORIO]
+   git clone [https://github.com/pNetwo/Portfolio-Dev]
    ```
 
 2. Navegue até a pasta do projeto:
 
    ```bash
-   cd [NOME-DO-PROJETO]
+   cd [portfolio-dev]
    ```
 
 3. Abra o arquivo `index.html` no seu navegador preferido
