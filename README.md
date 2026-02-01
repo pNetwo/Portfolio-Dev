@@ -1,4 +1,4 @@
-# [NOME DO PROJETO]
+# [Portfílio Dev]
 
 Um projeto de estudo desenvolvido durante o meu aprendizado na Rocketseat, onde pude colocar em prática conceitos fundamentais de desenvolvimento web e criar uma aplicação funcional do zero.
 
