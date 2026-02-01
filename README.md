@@ -8,14 +8,12 @@ Um projeto de estudo desenvolvido durante o meu aprendizado na Rocketseat, onde 
 
 - HTML
 - CSS
-- JavaScript
 - Git
 
 ## 📚 O que eu pratiquei
 
 - Como estruturar semanticamente um documento HTML5
 - Como estilizar componentes com CSS e criar layouts responsivos
-- Como manipular o DOM com JavaScript para criar interatividade
 - Como versionar meu código usando Git e comandos básicos
 
 ## 🚀 Como visualizar
